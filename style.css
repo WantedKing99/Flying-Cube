@@ -117,6 +117,17 @@
 .button1{
     margin-left: 45%;
     margin-top: 100px;
+    border: 2px solid black;
+    padding: 15px 32px;
+    text-align: center;    
     background: linear-gradient(to right, #000000, #434343);
     color: #ffff00;
+}
+
+#ts.text{
+    color: #ffff00;
+    border: #000000;
+    font-size: 30px;
+    font-weight: 250;
+    text-align: center;
 }
