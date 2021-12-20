@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.promo-title{
+    /* margin-top: 100px; */
+    font-size: 70px;
+	font-weight: 500;
+	text-align: center;
+    color:#ffff00;
+}
+
+.promo-title1{
+    /* margin-top: 100px; */
+    font-size: 90px;
+	font-weight: 500;
+	text-align: center;
+    color:#ffff00;
+}
+
+.title1{
+    /* margin-top: 100px; */
+    font-size: 70px;
+	font-weight: 500;
+	text-align: center;
+    color:#ffff00;
+}
+.text{
+    font-size: 30px;
+    font-weight: 250;
+    text-align: center;
+    color: #ffff00;
+}
+
+.title2{
+    font-size: 50px;
+	font-weight: 400;
+	text-align: center;
+    color:#ffff00;
+}
+
+.subtitle{
+    font-size: 30px;
+    font-weight: 250;
+    text-align: center;
+    color: #ffff00;
+}
+
+.background-container {
+    width: 100%;
+    height: 100%;
+    background-color: #ffff00;
+    background-size: cover;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    filter: brightness(60%);
+    -webkit-filter: brightness(60%);
+    -moz-filter: brightness(60%);
+    -o-filter: brightness(60%);
+    -ms-filter: brightness(60%);
+}
+
+#game{
+    margin-top: 50px;
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+    overflow: hidden;
+}
+#block{
+    width: 50px;
+    height: 500px;
+    background-color: black;
+    position: relative;
+    left: 400px;
+    animation: block 2s infinite linear;
+}
+@keyframes block{
+    0%{left:400px}
+    100%{left:-50px}
+}
+#hole{
+    width: 50px;
+    height: 150px;
+    position: relative;
+    left: 400px;
+    top: -500px;
+    animation: block 2s infinite linear;
+    background-color: #ffff00;
+    filter: brightness(60%);
+    -webkit-filter: brightness(60%);
+    -moz-filter: brightness(60%);
+    -o-filter: brightness(60%);
+    -ms-filter: brightness(60%);    
+}
+#character{
+    margin-top: 50px;
+    width: 20px;
+    height: 20px;
+    background-color:#ffff00;
+    position: absolute;
+    top: 100px;
+}
+
+.nav{
+    background: linear-gradient(to right, #000000, #434343);
+}
+/* .brand-logo{
+    color: #ffff00;
+} */
+.button1{
+    margin-left: 45%;
+    margin-top: 100px;
+    border: 2px solid black;
+    padding: 15px 32px;
+    text-align: center;    
+    background: linear-gradient(to right, #000000, #434343);
+    color: #ffff00;
+}
+
+#ts.text{
+    color: #ffff00;
+    border: #000000;
+    font-size: 30px;
+    font-weight: 250;
+    text-align: center;
+}
